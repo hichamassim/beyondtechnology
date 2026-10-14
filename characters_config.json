@@ -19,7 +19,7 @@
       "minRamMb": 3500,
       "file": {
         "id": "llm_gemma3_1b",
-        "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/gemma3-1b-it-int4.litertlm",
+        "url": "https://github.com/hichamassim/beyondtechnology/releases/download/models-v1/gemma3-1b-it-int4.litertlm",
         "fileName": "gemma3-1b-it-int4.litertlm",
         "sizeBytes": 0,
         "sha256": ""
@@ -29,28 +29,28 @@
   "shared": [
     {
       "id": "pose",
-      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/pose_landmarker_lite.task",
+      "url": "https://github.com/hichamassim/beyondtechnology/releases/download/models-v1/pose_landmarker_lite.task",
       "fileName": "pose_landmarker_lite.task",
       "sizeBytes": 5777746,
       "sha256": ""
     },
     {
       "id": "face",
-      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/blaze_face_short_range.tflite",
+      "url": "https://github.com/hichamassim/beyondtechnology/releases/download/models-v1/blaze_face_short_range.tflite",
       "fileName": "blaze_face_short_range.tflite",
       "sizeBytes": 229746,
       "sha256": ""
     },
     {
       "id": "objects",
-      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/efficientdet_lite0.tflite",
+      "url": "https://github.com/hichamassim/beyondtechnology/releases/download/models-v1/efficientdet_lite0.tflite",
       "fileName": "efficientdet_lite0.tflite",
       "sizeBytes": 4600000,
       "sha256": ""
     },
     {
       "id": "clothing",
-      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/clothing_classifier.tflite",
+      "url": "https://github.com/hichamassim/beyondtechnology/releases/download/models-v1/clothing_classifier.tflite",
       "fileName": "clothing_classifier.tflite",
       "sizeBytes": 3000000,
       "sha256": "",
