@@ -1,0 +1,173 @@
+{
+  "version": 3,
+  "llmTiers": [
+    {
+      "id": "gemma4_e2b",
+      "label": "Gemma 4 E2B (best)",
+      "minRamMb": 5500,
+      "file": {
+        "id": "llm_gemma4_e2b",
+        "url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/main/gemma-4-E2B-it.litertlm",
+        "fileName": "gemma-4-E2B-it.litertlm",
+        "sizeBytes": 0,
+        "sha256": ""
+      }
+    },
+    {
+      "id": "gemma3_1b",
+      "label": "Gemma 3 1B (lite)",
+      "minRamMb": 3500,
+      "file": {
+        "id": "llm_gemma3_1b",
+        "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/gemma3-1b-it-int4.litertlm",
+        "fileName": "gemma3-1b-it-int4.litertlm",
+        "sizeBytes": 0,
+        "sha256": ""
+      }
+    }
+  ],
+  "shared": [
+    {
+      "id": "pose",
+      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/pose_landmarker_lite.task",
+      "fileName": "pose_landmarker_lite.task",
+      "sizeBytes": 5777746,
+      "sha256": ""
+    },
+    {
+      "id": "face",
+      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/blaze_face_short_range.tflite",
+      "fileName": "blaze_face_short_range.tflite",
+      "sizeBytes": 229746,
+      "sha256": ""
+    },
+    {
+      "id": "objects",
+      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/efficientdet_lite0.tflite",
+      "fileName": "efficientdet_lite0.tflite",
+      "sizeBytes": 4600000,
+      "sha256": ""
+    },
+    {
+      "id": "clothing",
+      "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/models-v1/clothing_classifier.tflite",
+      "fileName": "clothing_classifier.tflite",
+      "sizeBytes": 3000000,
+      "sha256": "",
+      "optional": true
+    }
+  ],
+  "characters": [
+    {
+      "id": "robot",
+      "name": {
+        "en": "Robo",
+        "fr": "Robo",
+        "de": "Robo",
+        "it": "Robo",
+        "ko": "로보",
+        "ja": "ロボ",
+        "es": "Robo"
+      },
+      "description": {
+        "en": "A friendly robot who loves practical advice.",
+        "fr": "Un robot sympa qui adore les conseils pratiques.",
+        "de": "Ein freundlicher Roboter mit praktischen Tipps.",
+        "it": "Un robot simpatico che ama i consigli pratici.",
+        "ko": "실용적인 조언을 좋아하는 친절한 로봇.",
+        "ja": "実用的なアドバイスが得意な優しいロボット。",
+        "es": "Un robot amigable que adora los consejos prácticos."
+      },
+      "previewAsset": "assets/characters/robot.png",
+      "accent": "#4FC3F7",
+      "pack": {
+        "id": "pack_robot",
+        "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/robot-v1/robot_pack.zip",
+        "fileName": "robot_pack.zip",
+        "sizeBytes": 60000000,
+        "sha256": ""
+      },
+      "animations": {
+        "idle": "idle.mp4",
+        "thinking": "thinking.mp4",
+        "smile": "smile.mp4",
+        "talking": "talking.mp4",
+        "concerned": "concerned.mp4"
+      }
+    },
+    {
+      "id": "anime_girl",
+      "name": {
+        "en": "Sakura",
+        "fr": "Sakura",
+        "de": "Sakura",
+        "it": "Sakura",
+        "ko": "사쿠라",
+        "ja": "さくら",
+        "es": "Sakura"
+      },
+      "description": {
+        "en": "A cheerful anime girl, your style buddy.",
+        "fr": "Une joyeuse fille d'anime, ta copine de style.",
+        "de": "Ein fröhliches Anime-Mädchen und dein Style-Buddy.",
+        "it": "Una allegra ragazza anime, la tua amica di stile.",
+        "ko": "스타일 친구가 되어줄 밝은 애니 소녀.",
+        "ja": "あなたのスタイル相談相手の明るいアニメ少女。",
+        "es": "Una alegre chica anime, tu amiga de estilo."
+      },
+      "previewAsset": "assets/characters/anime_girl.png",
+      "accent": "#F48FB1",
+      "pack": {
+        "id": "pack_anime_girl",
+        "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/anime-girl-v1/anime_girl_pack.zip",
+        "fileName": "anime_girl_pack.zip",
+        "sizeBytes": 60000000,
+        "sha256": ""
+      },
+      "animations": {
+        "idle": "idle.mp4",
+        "thinking": "thinking.mp4",
+        "smile": "smile.mp4",
+        "talking": "talking.mp4",
+        "concerned": "concerned.mp4"
+      }
+    },
+    {
+      "id": "classic_advisor",
+      "name": {
+        "en": "Mr. Arthur",
+        "fr": "M. Arthur",
+        "de": "Herr Arthur",
+        "it": "Sig. Arthur",
+        "ko": "아서 씨",
+        "ja": "アーサー氏",
+        "es": "Sr. Arthur"
+      },
+      "description": {
+        "en": "A calm classic advisor with timeless wisdom.",
+        "fr": "Un conseiller classique et serein, plein de sagesse.",
+        "de": "Ein ruhiger, klassischer Berater mit zeitloser Weisheit.",
+        "it": "Un consulente classico e pacato dalla saggezza senza tempo.",
+        "ko": "변치 않는 지혜를 가진 차분한 클래식 조언자.",
+        "ja": "時代を超えた知恵を持つ落ち着いた紳士。",
+        "es": "Un asesor clásico y sereno con sabiduría atemporal."
+      },
+      "previewAsset": "assets/characters/classic_advisor.png",
+      "accent": "#FFB74D",
+      "pack": {
+        "id": "pack_classic_advisor",
+        "url": "https://github.com/YOUR_USER/YOUR_REPO/releases/download/classic-v1/classic_advisor_pack.zip",
+        "fileName": "classic_advisor_pack.zip",
+        "sizeBytes": 60000000,
+        "sha256": ""
+      },
+      "animations": {
+        "idle": "idle.mp4",
+        "thinking": "thinking.mp4",
+        "smile": "smile.mp4",
+        "talking": "talking.mp4",
+        "concerned": "concerned.mp4"
+      }
+    }
+  ]
+}
